@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Rec2.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+ <title></title>
+ <asp:ContentPlaceHolder id="head" runat="server">
+ </asp:ContentPlaceHolder>
+</head>
+<body>
+ <form id="form1" runat="server">
+ <div>
+ <h2> <a href="RegistroUsuario.aspx">Usuarios</a></h2>
+
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1"
+runat="server">
+
+ </asp:ContentPlaceHolder>
+
+ <h3>Recuperatorio 2</h3>
+ </div>
+ </form>
+</body>
+</html>
